@@ -1,4 +1,14 @@
-﻿<System.Serializable> Public Class PetRecord
+﻿'------------------------------------------------------------
+'-                File Name : PetRecord.vb                  - 
+'-                Part of Project: Assign1                  - 
+'------------------------------------------------------------ 
+'-                Written By: Elijah Wilson                 - 
+'-                Written On: 1/14/16                       -
+'------------------------------------------------------------ 
+'- File Purpose:                                            - 
+'- This file contains the PetRecord class.                  - 
+'------------------------------------------------------------ 
+<System.Serializable> Public Class PetRecord
     Public name As String
     Public ownerName As String
     Public species As String
