@@ -22,7 +22,6 @@ Imports System.Xml
 
 Public Class frmPetRecords
     Private ageUnits As New List(Of String)(New String() {"Months", "Years"})
-    Private isNewRecord As Boolean
     Private currentPetRecordIndex As Integer = 0
     Private petRecords As New List(Of PetRecord)
     Private Const DATAFILEPATH = "pet_records.xml"
